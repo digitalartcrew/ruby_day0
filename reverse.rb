@@ -1,5 +1,5 @@
 def new_reverse()
 	a = gets
-	puts a.chars.reduce{|s,c| c + s }
+	puts a.chars.reduce{|a,b| b + a }
 end
 new_reverse
